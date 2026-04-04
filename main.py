@@ -41,6 +41,7 @@ def customer_dashboard():
 
     menu.show_menu(menu_data)
     orders.place_order(menu_data)
+    
 
 
 # ---------- RUN ----------
