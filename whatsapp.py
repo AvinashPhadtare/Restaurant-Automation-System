@@ -26,4 +26,4 @@ def send_whatsapp(order):
     url = f"https://wa.me/{phone_number}?text={encoded_message}"
 
     # Step 5: Open WhatsApp Web
-    webbrowser.open(url)
+    webbrowser.open(url) 
